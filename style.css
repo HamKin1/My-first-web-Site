@@ -1,0 +1,47 @@
+body{
+    background-color: blue;
+    border: 3px solid;
+    display: flow-root;
+}
+h1{
+    color:red;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 2em;
+    font-weight: bold;
+    font-style: italic;
+    border-style: solid;
+    border-width: 3px;
+    border-color: bisque;
+    border-radius: 20px;
+}
+.even{
+    border: 3px solid red;
+    border-radius: 5px;
+}
+.odd{
+    color:green;
+    border-top: 5px solid;
+    border-bottom: 2px solid;
+    border-left : 7px dotted rgb(255 255 35);
+}
+#p1{
+    color:orange; 
+}
+h2{
+    text-shadow: 3px 3px 5px;
+    color: aqua;
+    margin-left:70px ;
+}
+#img1{
+    float: right;
+    margin-right: 10px;
+}
+#img2{
+    float: left;
+    margin-left: 20px;
+}
+div{
+    border: 2px solid;
+    height: 35px;
+    overflow: auto;
+}

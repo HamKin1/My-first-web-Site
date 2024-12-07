@@ -1,0 +1,54 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0px;
+}
+header{
+    background-color: rgb(241, 211, 171);
+    text-align: center;
+    padding: 25px;
+}
+.gallery{
+    display: inline-block;
+    border: 1px solid yellowgreen;
+    margin: 5px;
+}
+.gallery .description{
+    padding: 10px;
+    text-align: center;
+}
+.gallery:hover{
+    border: 1px solid rebeccapurple;
+}
+.navbar{
+    background-color: aquamarine;
+    height: 50px;
+}
+aside{
+    width: 20%;
+    float: left;
+    padding: 10px;
+}
+section{
+    width: 40%;
+    float: left;
+    padding: 10px;
+}
+article{
+    width: 40%;
+    float: left;
+    padding: 10px;
+}
+footer{
+    display: block;
+    clear: both;
+    background-color: rgb(228, 122, 24);
+    text-align: center;
+    padding: 25px;
+}
+@media screen and (max-width:600px){ 
+    aside,section,article{
+        width:100%;
+    }
+}

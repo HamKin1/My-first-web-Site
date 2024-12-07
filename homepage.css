@@ -1,0 +1,111 @@
+body{
+    /*.For a smaller image on the background */
+    background-image: url(images/At.jpeg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+}
+a:link{
+    color: aquamarine;
+}
+
+a:hover{
+    color: blueviolet;
+    font-size: 1.1cm;
+}
+a:active{
+    color: black;
+    font-size: 1.1cm;
+}
+a:visited{
+    color: chocolate;
+}
+#container{
+    border: 2px solid;
+}
+#container > p{
+    background-color: yellow;
+}
+/* position
+          relative
+          fixed
+            static
+            sticky
+            absolute */
+#box1{
+    width: 200px;
+    height: 200px;
+    background-color: brown;
+    position: sticky;/*can be scroll passed it*/
+    top: 100px;
+
+}
+#box2{
+    width: 100px;
+    height: 100px;
+    background-color: rgb(153, 221, 27);
+    position: static;
+    top: 50px;
+    left: 50px;
+}
+li:hover{
+    background-color: brown;
+}
+li:not(:hover){
+    background-color: rgb(42, 165, 118);
+}
+li:nth-child(odd){/* depending on the nmber input eg odd,even,1,2,4n,3n+2 etc*/
+    background-color: blue;
+}
+/* They are use for drop down menu*/
+#greeting p {
+    background-color: white;
+    padding: 10px;
+    display: none;
+}
+#greeting:hover p{
+    display: block;
+}
+h1::first-letter{
+    font-size: 2cm;
+    font-style: italic;
+}
+p::first-line{
+    background-color: bisque;
+}
+p::selection{
+    color: pink;
+    background-color: red;
+}
+#fruit li::marker{
+    content: "✔";
+    color: blue;
+}
+#apple::after{
+    content: "🍎";
+}
+#banana::after{
+    content: "🍌";
+}
+#orange::after{
+    content: "🍊";
+}
+.pagination{
+    text-align: center;
+}
+.pagination a{
+    color: greenyellow;
+    text-decoration: none;
+    padding: 8px 15px;
+    display: inline-block;
+}
+.pagination a.active{
+    background-color: rgb(34, 107, 107);
+    font-weight: bold;
+    border-radius: 10px;
+}
+.pagination a::hover:not(.active){
+    background-color: black;
+    border-radius: 5px;
+}

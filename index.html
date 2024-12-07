@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My website</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+
+    <h1 id="myH1"></h1>
+    <p id="myp"></p>
+
+    <p id="p1"></p>
+    <p id="p2"></p>
+    <p id="p3"></p>
+
+    <h2>Welcom</h2>
+
+    <label>username</label>
+    <input id="text"></input>
+    <button id="mysubmit">submit</button>
+
+    <h1 id="myH2">Enter the radius of a circle:</h1>
+    <label>radius</label>
+    <input type="text " id="myText">
+    <button id="sub">submit</button>
+    <h3 id="myH3"></h3>
+
+    <label id="count">0</label><br>
+    <div id="container" >
+        <button id="decreaseBtn" class="buttons">decrease</button>
+        <button id="resetBtn" class="buttons">reset</button>
+        <button id="increaseBtn" class="buttons">increase</button>
+    </div>
+
+    <label> Enter your age:</label><br>
+    <input type="text" id="myAge"><br>
+    <button type="submit" id="subM">Submit</button>
+    <p id="resultElement"></p>
+
+
+
+   <!.. Checkbox ..>
+
+   <input type="checkbox" id="myCheckBox">
+   <label for="myCheckBox">Subscribe</label><br><br>
+
+   <input type="radio" id="visaBtn" name="card">
+   <label for="visaBtn">Visa</label><br>
+   <input type="radio" id="payPalBtn" name="card">
+   <label for="payPalBtn">PayPal</label><br><br>
+
+   <button type="submit" id="mySubmit">Submit</button>
+
+   <p id="subResult"></p>
+   <p id="paymentResult"></p>
+
+   <form> 
+    <h1>Tempreture Conversion</h1>
+    <input type="number" id="textBox" value="0"><br>
+
+    <input type="radio" id="toFahrenheit" name="unit">
+    <label for="toFahrenheit">Celsius ⇒ Fahrenheit</label><br>
+
+    
+    <input type="radio" id="toCelsius" name="unit">
+    <label for="toCelsius">Fahrenheit ⇒ Celsius</label><br>
+
+    <button type="button" ondblclick="convert()">Submit</button>
+    <p id="results"></p> 
+   </form> 
+
+    <script src="index.js"></script>
+</body>
+</html>
